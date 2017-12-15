@@ -1,3 +1,4 @@
 <?php
-echo 1337;
+echo exec('touch /var/www/html/foobar.txt');
+
 ?>
